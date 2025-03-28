@@ -21,6 +21,8 @@ This is a basic login page built using HTML, CSS, and JavaScript. It includes a 
 
 - JavaScript – Form validation and interactivity
 
+
+![image](login.png)
 # How to Use
 
 
