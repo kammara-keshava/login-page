@@ -35,8 +35,8 @@ This is a basic login page built using HTML, CSS, and JavaScript. It includes a 
 
 # Future Enhancements
 
-Add backend authentication using PHP, Node.js, or Firebase
+- Add backend authentication using PHP, Node.js, or Firebase
 
-Implement error messages and password strength meter
+- Implement error messages and password strength meter
 
-Integrate with a database for user management
+- Integrate with a database for user management
