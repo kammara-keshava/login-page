@@ -1,40 +1,40 @@
-Login Page
+# Login Page
 This is a basic login page built using HTML, CSS, and JavaScript. It includes a simple user authentication interface where users can enter their credentials.
 
-Features
-Responsive design
 
-Basic form validation using JavaScript
 
-Password visibility toggle
+# Features
 
-Smooth UI with CSS animations
+- Responsive design
 
-Technologies Used
-HTML – Structure of the page
+- Basic form validation using JavaScript
 
-CSS – Styling and layout
+- Password visibility toggle
 
-JavaScript – Form validation and interactivity
+- Smooth UI with CSS animations
 
-How to Use
-Clone the repository or download the files.
+# Technologies Used
 
-Open the index.html file in a browser.
+- HTML – Structure of the page
 
-Enter your credentials in the login form.
+- CSS – Styling and layout
 
-Click the "Login" button to proceed (you can add backend authentication later).
+- JavaScript – Form validation and interactivity
 
-File Structure
-bash
-Copy
-Edit
-/login-page  
-│── index.html   # Main login page  
-│── style.css    # Styles for the page  
-│── script.js    # JavaScript for form validation  
-Future Enhancements
+# How to Use
+
+
+- Clone the repository or download the files.
+
+- Open the index.html file in a browser.
+
+- Enter your credentials in the login form.
+
+- Click the "Login" button to proceed (you can add backend authentication later).
+
+
+# Future Enhancements
+
 Add backend authentication using PHP, Node.js, or Firebase
 
 Implement error messages and password strength meter
