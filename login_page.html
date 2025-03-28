@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        body {
+            background-color: black;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .login {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .login h2 {
+            font-size: 2em;
+            color: #fff;
+        }
+
+        .login .inputbx {
+            position: relative;
+            width: 100%;
+            margin-bottom: 15px;
+        }
+
+        .login .inputbx input {
+            position: relative;
+            width: calc(100% - 40px);
+            padding: 12px 20px;
+            background: transparent;
+            border: 2px solid #fff;
+            border-radius: 40px;
+            font-size: 1.2em;
+            color: #fff;
+            box-shadow: none;
+            outline: none;
+        }
+
+        .login .inputbx input[type="submit"] {
+            width: 100%;
+            background: #8878ff;
+            background: linear-gradient(45deg, #ff357a, #fff172);
+            border: none;
+            cursor: pointer;
+        }
+
+        .login .inputbx input::placeholder {
+            color: rgba(255, 255, 255, 0.75);
+        }
+
+        .login .links {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 20px;
+        }
+
+        .login .links a {
+            color: #fff;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="ring">
+        <i style="--clr:#00ff0a;"></i>
+        <i style="--clr:#ff0057;"></i>
+        <i style="--clr:#fffd44;"></i>
+        <div class="login">
+            <h2>login</h2>
+            <form id="loginForm">
+                <div class="inputbx">
+                    <input type="text" id="username" placeholder="username" required>
+                </div>
+                <div class="inputbx">
+                    <input type="password" id="password" placeholder="password" required>
+                </div>
+                <div class="inputbx">
+                    <input type="submit" value="sign in">
+                </div>
+            </form>
+            <div class="links">
+                <a href="#">forgot password</a>
+                <a href="#">sign up</a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('loginForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            var username = document.getElementById('username').value;
+            var password = document.getElementById('password').value;
+            console.log('Username:', username);
+            console.log('Password:', password);
+        });
+    </script>
+</body>
+</html>
